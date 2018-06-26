@@ -21,11 +21,10 @@ The demo project I created is meant for use in combination with HWLIB.
 1. create your own class that inherits from "display_writer" and override the Write() function. This is where you write your own code that will do something with the outcoming pixels.
 See "hwlib_display_writer" for reference.
 
-2. create a wireframe object.
+2. create a wireframe object, and give a reference to your own display_writer as a parameter.
 
 3. add edges/triangles to your wireframe by using:
-  Add_edge_by_vertices()
-  Add_triangle()
+  Add_edge_by_vertices(), Add_triangle()
   
 4. Draw the the wireframe with the Draw() function.
 
