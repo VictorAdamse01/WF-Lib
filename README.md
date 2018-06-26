@@ -5,6 +5,7 @@ The library is meant for use with an arduino or some sort of microcontroller, bu
 
 This library does not write its output directly to the hardware. I used the HWLIB library for this
 The demo project I created is meant for use in combination with HWLIB. 
+https://github.com/wovo/hwlib
 
 
 ## Functionalities
